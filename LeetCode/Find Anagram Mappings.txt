@@ -1,0 +1,7 @@
+var anagramMappings = function(A, B) {
+    var res = [];
+    for (x of A){
+        res.push(B.indexOf(x))
+    }
+    return res;
+};
